@@ -13,8 +13,8 @@
 // Manually create the first node (head of list) and use methods
 // from that point on.
 typedef struct node {
-	int         item;
-	struct node *next;
+  int         item;
+  struct node *next;
 } node_t;
 
 void linkedList_AddFront (
