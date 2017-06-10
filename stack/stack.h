@@ -5,6 +5,19 @@
 /*                                                            */
 /* Defines operations for using a stack in C                  */
 /*                                                            */
+/* Used a slightly different approach with nodes compared to  */
+/* my previous linkedList implementation. Created a global to */
+/* point at the top of the stack, as opposed to keeping       */
+/* manually creating the top of the stack when the structure  */
+/* is needed.                                                 */
+/*                                                            */
+/* For using the stack implementation in any program with a   */
+/* significant size, it'd be worth renaming top and it's      */
+/* references to a more specific identifier to prevent symbol */
+/* table collisions. This isn't an issue with the manual      */
+/* creation approach for linkedList.c but both approaches are */
+/* worth understanding.                                       */
+/*                                                            */
 /* By David Skudra                                            */                      /*                                                            */
 /*                                                            */
 /**************************************************************/
