@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <assert.h>
 #include "linkedList.h"
-#define NoMem    0x0000
-#define NullList 0xFFFF
 
 void linkedList_AddFront (int newval, node_t **llist)
 /**************************************************************/

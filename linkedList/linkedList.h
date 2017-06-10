@@ -9,6 +9,9 @@
 /*                                                            */
 /**************************************************************/
 
+#define NoMem    0x0000
+#define NullList 0xFFFF
+
 // Defines the node structure used to create a linked list
 // Manually create the first node (head of list) and use methods
 // from that point on.
