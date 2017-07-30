@@ -5,6 +5,4 @@ As of now the data field of a node_t is a function pointer to a void function wi
 
 The copy of this in my future project will reflect what the documentation states:
 
-pq_deleteMax: Removes the highest priority task from the   */
-/*            priority queue and returns the function      */
-/*            pointer 'data'                               */
+pq_deleteMax: Removes the highest priority task from the priority queue and returns the function pointer 'data'
