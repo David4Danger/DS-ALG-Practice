@@ -19,5 +19,6 @@ public:
   }
   ~linkedListKVP();
   void insertKVP(int newkey, int newvalue);
+  int searchKVP(int key);//lookup value associated with key, don't delete
   int deleteKVP(int key);
 };
