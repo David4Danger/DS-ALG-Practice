@@ -67,7 +67,7 @@ int linkedListKVP::deleteKVP (int key) {
   }
 }
 
-int main () {
+/*int main () {
   linkedListKVP llist;
   llist.insertKVP(5,99);
   cout << "Inserted key 5, value 99" << endl;
@@ -86,4 +86,4 @@ int main () {
   cout << "Deleted key 75, value: " << llist.deleteKVP(75) << endl;
   cout << "Attempted delete on empty llist, got value: " << llist.deleteKVP(12) << endl;
   return 0;
-}
+}*/

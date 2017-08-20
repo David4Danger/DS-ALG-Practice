@@ -31,7 +31,7 @@ private:
 public:
   hashMap();
   ~hashMap();
-  void insert(int key, int val);//Add a KV pair
-  int deleteVal(int key);//Find and delete the KV pair, mark key as deleted (-1)
-  int search (int key);//Find KV pair, return value
+  void insert(int key, int val);//Add a KVP
+  int deleteVal(int key);//Find and delete the KVP, mark key as deleted (-1)
+  int search (int key);//Find KVP, return value
 };
